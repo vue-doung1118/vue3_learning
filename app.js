@@ -6,8 +6,19 @@ const app =Vue.createApp(
   //Vue is Capitalize （ Vue )
 
   //data and functions 
-  {template:'<h2>this is mount to the #app with id="app" </h2> '
-})
+  // {template:'<h2>this is mount to the #app with id="app" </h2> '}
+
+  { data() {
+return { 
+title:" teat" ,
+author:"people",
+age:"35", 
+} 
+
+  }}
+  
+
+)
 
 
 app.mount('#app') 
