@@ -14,8 +14,8 @@
 <div id="app">
 <p>{{title}} - {{author}} - {{ age }} </p>
 <!-- try use function return Attribute -->
-<button v-on:click ="age">increase</button>
-<button v-on:click ="age">decrease</button>
+<button v-on:click ="age++">increase</button>
+<button v-on:click ="age--">decrease</button>
 <div @click="changeTitle()">change book title </div>
 
 </div>
