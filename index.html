@@ -9,13 +9,25 @@
 <div >hello,vue</div>
 
 <h1>test git</h1>
+
+ <!-- id="app" is mean interal var -->
 <div id="app">
-
 <p>{{title}} - {{author}} - {{ age }} </p>
-
-
+<!-- try use function return Attribute -->
+<button v-on:click ="age">increase</button>
+<button v-on:click ="age">decrease</button>
+<div @click="changeTitle()">change book title </div>
 
 </div>
+
+
+<!-- now try use extral of various ,, have not found app.js of const=app  -->
+<!-- {{title}} -->
+
+
+<boutton v-on ></boutton>
+<!-- is mean mouse click and move clip  -->
+
 <script src="app.js"></script>
 </body>
 </html>

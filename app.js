@@ -1,24 +1,29 @@
 // console.log('hello ,vue,thank')
 
 
-const app =Vue.createApp( 
+const app =Vue.createApp({
 
   //Vue is Capitalize （ Vue )
 
   //data and functions 
   // {template:'<h2>this is mount to the #app with id="app" </h2> '}
 
-  { data() {
+data() {
 return { 
 title:" teat" ,
 author:"people",
 age:"35", 
-} 
+}} ,  
 
-  }}
-  
+methods : {
+  changeTitle(){
+   this.title = "Barry of world "
+  }
+}
 
-)
+  })
+
+
 
 
 app.mount('#app') 
